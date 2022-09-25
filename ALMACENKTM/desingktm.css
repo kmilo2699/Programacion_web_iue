@@ -1,0 +1,130 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #2d2c2c;
+}
+.Titulo_princ{
+    text-align: center;
+    
+    }
+.tipos{
+    font-size:150px;
+    line-height: 150px;
+    margin: 125px 400px;
+    text-align: center;
+    background: radial-gradient(#ffffff , #2d2c2c);
+    border-radius:112px;
+}
+
+.title{
+    font-size:50px;
+    line-height: 50px;
+    margin: 55px 0;
+    text-align: center;
+    background: radial-gradient(#ffffff , #f36208);
+    
+    
+}
+
+h1{
+    font-size:50px;
+    line-height: 50px;
+    margin: 55px 0;
+    text-align: center;
+    
+    
+
+
+}
+h2{
+    font-size:50px;
+    line-height: 50px;
+    margin: 55px 0;
+    text-align: center;
+    background: radial-gradient(#ffffff , #f36208);
+    border-radius:112px;
+    color: #0c0c0c;
+
+}
+
+h3{
+    font-size: 50;
+    color: #ed6a0c;
+    font-weight: normal;
+}
+
+
+p{
+    font-size: 50px;
+    color: #f96c07;
+    text-align: center;
+    
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+
+.header{
+    background: radial-gradient(#ffffff , #ff790a);
+    margin-top:60px ;
+    text-align: center;
+    border-radius:2px;
+    padding: auto;  
+}
+
+.categories{
+    
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    border-radius:112px;
+
+}
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    background: radial-gradient(#ffffff , #ff790a);
+    border-radius:112px;
+    
+}
+
+img{
+    width: 450px;
+    height:450px;
+    border-radius:12px;
+    box-shadow:0px 0px 10px rgb(243, 105, 25);
+    margin-bottom:150px;
+    text-align: center;
+}
+
+.footer{
+    background: black;
+    padding: 10px 10 10px;
+    text-align: center;
+}
+
+.footer p{
+    font-size: 50px;
+    color: #f07d10;
+    text-align: center;
+}
+
+.footer, h3{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+
+.app-logo{
+    width: 400px;
+    height:400px;
+    border-radius:12px;
+}

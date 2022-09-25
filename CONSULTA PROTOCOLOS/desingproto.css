@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.articulo {    
+    border: 10px double rgb(0, 0, 0);
+    width: 3000px;
+    height: 3400px;
+    margin: auto;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+
+  }
+  
+h1 {
+    margin: 5px;
+    font-size: 66px;
+    color: rgb(1, 19, 34);
+    text-shadow: 2px 2px 5px rgb(115, 175, 227);
+    font: bold;
+
+}
+  
+h2 {
+    font-size: 36px;
+    color: rgb(0, 4, 248);
+    font: bold;
+}
+  
+h3 {    
+    font-size: 36px;
+    color: rgb(0, 4, 248);  
+    font: bold;
+}
+  
+article {
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 35px;
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+}
+  
+.letra {
+    font-size: 100px;
+
+    
+}
+  
+.strong {
+    margin-left: 0px;
+    font-size: medium;
+    font-style: italic;
+    
+}
+    
+p{
+    position: relative;
+    left: 30px;
+    background-color: aliceblue;
+}
+  
+.p {
+    margin-left: 30px;
+    font-size: 520px;
+}
+  
+  footer {
+    left: 810px;
+    width: 7px;
+    bottom: 7px;
+    height: 300px;
+    
+}
+  
+.img{
+  text-align: center;
+  margin: auto;
+  
+
+
+}
+  
+.piedepagina{
+  text-align: center;
+  margin-left: 0px;
+  font-size: 50px;
+
+}
+div{
+  text-align: center;
+  margin-left: 10px;
+  font-size: 60px;
+}

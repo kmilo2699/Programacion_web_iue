@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.articulo {    
+    border: 10px double rgb(239, 218, 151);
+    width: 2200px;
+    height: 1400px;
+    margin: auto;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0);
+
+  }
+  
+  h1 {
+    margin: 5px;
+    font-size: 66px;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px rgb(249, 247, 247);
+
+  }
+  
+  h2 {
+    font-size: 36px;
+    color: aliceblue;
+  }
+  
+  h3 {    
+    font-size: 26px;
+    color: aliceblue;
+  }
+  
+  article {
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 26px;
+    color: rgb(91, 216, 222);
+    text-decoration: none;
+  }
+  
+  .letra {
+    font-size: 100px;
+
+    
+  }
+  
+  .strong {
+    margin-left: 0px;
+    font-size: medium;
+    font-style: italic;
+    
+    
+
+
+  }
+  
+  .frase {
+    position: relative;
+    left: 30px;
+    color: rgb(239, 200, 30);
+    
+  }
+  
+   
+  .p {
+    position: relative;
+    left: 30px;
+  }
+  
+  .p {
+    margin-left: 30px;
+    font-size: 520px;
+  }
+  
+  footer {
+    left: 810px;
+    width: 7px;
+    bottom: 7px;
+    height: 300px;
+  }
+  
+   
+  
+  
+  .fases {
+    position: absolute;
+    width: 546px;
+    height: 1180px;
+    
+  }
+  
+.img{
+  text-align: center;
+  margin-left: 0px;
+  border: 50px dotted rgb(219, 202, 156);
+  
+  
+  
+
+
+}
+  
+.piedepagina{
+  text-align: center;
+  margin-left: 0px;
+  font-size: 50px;
+
+}
+div{
+  text-align: center;
+  margin-left: 0px;
+  font-size: 60px;
+}

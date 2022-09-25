@@ -1,0 +1,147 @@
+#Contacto {
+    display: block;
+    margin: auto;
+    border: 5px solid rgb(231, 198, 129);
+    border-radius: 200px;
+    padding: 35px;
+    width: 330px;
+    height: 330px;
+  }
+  
+  ul {
+    list-style-type: none;
+    background-color: rgba(211, 211, 211, 0.748);
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  ol{
+      list-style-type: none;
+      background-color: rgba(0, 0, 0, 0);
+      font-size: 30px;
+      text-align: center;
+      
+     }
+  
+  .datosBarra li {
+    margin-bottom: 20px;
+    box-shadow:0 0 45px rgb(220, 198, 109)
+  }
+  
+  i {
+    margin-right: 1   0px;
+    
+  }
+  
+  .datosBarra {
+    padding-top: 55px;
+    padding-right: 5px;
+    padding-bottom: 200px;
+    padding-left: 5px;
+    color: #ffffff;
+    font-size: 52px;
+    text-align: left;
+    
+    
+  }
+  
+  .barraEst h2 {
+    padding: 20px 5px 5px 5px;
+    font-size: 55px;
+    color: #e2ce85;
+    display: block;
+    text-align: center;  
+    border-bottom: 3px dashed;
+    width: 300px;
+    margin: auto;
+    box-shadow:0 0 45px rgb(220, 198, 109)
+  }
+  /* barra negra*/
+  .barraEst {
+    height: 100%;
+    width: 415px; 
+    position: fixed;
+    top: 0; 
+    left: 0;
+    background: #111;
+    padding-top: 120px;
+    border: 10px dotted rgb(203, 193, 133);
+    box-shadow:0 0 45px rgb(220, 198, 109)
+  }
+  
+  .main {
+    margin-left: 450px;
+    padding: 0px 10px;
+    font-size: 55px;
+  }
+  
+  .intro {
+      font-style: italic;
+      text-align:center;
+      font-size: 85px;
+  }
+  
+  .informacion {
+      font-style: italic; 
+      text-align: center;
+  }
+  
+  .info li{
+    font-size: 25px;
+  }
+  
+  .main h1{
+    font-size: 80px;
+  }
+  
+  h2{
+    font-size: 80px;
+  }
+  /*para agrupar varios elementos y banners*/
+  fieldset {
+      border:10px solid rgb(4, 4, 4);
+      border-radius:150px;
+      box-shadow:0 0 10px #999; 
+    
+     
+  }
+  /*contenedor raya blanca*/
+  #contenedor{
+    text-align:justify;
+    vertical-align: middle;
+    width: 100%;
+    font-size: 0%;
+    text-align: center;
+    
+  
+  }
+  /*cuadro blanco contenedor*/
+  .cuadro1{
+    display:inline-block; 
+      border:1px solid rgb(255, 255, 255);
+      border-radius:28px;
+    box-shadow:0 0 45px rgb(220, 198, 109); 
+    font-size: 57px;
+    padding: 55px 100px 5px 10px;
+    text-align: center;
+    width: 46%;
+    margin: 10px;
+    font-size: 25px;
+  }
+  
+  .cuadro1 h4,h3{
+    margin:0;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .cuadro2 {
+    font-size: 45px;
+  }
+  
+  .cuadro3 {
+    font-size: 45px;
+  }
+  
+  
+  

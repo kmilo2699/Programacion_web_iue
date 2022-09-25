@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/desing.css">
+    <title>DOM</title>
+</head>
+
+<body>
+<div class="articulo">
+  <h1>Qué es el DOM: </h1>
+  <h2>Qué es el DOM, la estructura de objetos que genera el navegador en memoria para cada uno de los elementos de la página. Cómo ha evolucionado el DOM a lo largo del tiempo y cómo trabajar con el DOM en Javascript.</h2>
+  <h3>DOM es una abreviatura de Document Object Model. En español podríamos traducirlo por Modelo de Objeto de Documento, aunque en DesarrolloWeb.com nos hemos referido al DOM habitualmente con el nombre de jerarquía de objetos del navegador, porque realmente es una estructura jerárquica donde existen varios objetos y unos dependen de otros. </h3>
+  <article><strong class="letra"></strong>Los objetos del DOM modelizan tanto la ventana del navegador como el historial, el documento o página web, y todos los elementos que pueda tener dentro la propia página, como párrafos, divisiones, tablas, formularios y sus campos, etc. A través del DOM se puede acceder, por medio de Javascript, a cualquiera de estos elementos, es decir a sus correspondientes objetos para alterar sus propiedades o invocar a sus métodos. Con todo, a través del DOM, queda disponible para los programadores de Javascript, cualquier elemento de la página, para modificarlos, suprimirlos, crear nuevos elementos y colocarlos en la página, etc.
+
+    Lo cierto es que quien quiera que haya realizado un poco de trabajo con Javascript, aunque este haya sido muy básico, ha tocado el DOM alguna vez. Aquí en desarrollo web .com hemos visto multitud de ejemplos en los que se tocaba el DOM. Cuando por ejemplo hacemos una sentencia en la que se accede al valor de un campo de formulario, con un código como este: document.forms[0].elemento_formulario.value, estamos accediendo a la estructura de objetos del DOM.
+    
+    El DOM está definido y administrado por el W3C, por lo que los distintos navegadores simplemente aplican las especificaciones del World Wide Web Consortium, para dar soporte al DOM en sus aplicaciones. El DOM no sólo permite modificar páginas web en HTML, sino también documentos XML.
+    
+    A lo largo de la historia de los navegadores, se han ido aplicando en mayor o menor manera las características del DOM. A medida que se sucedían versiones de los navegadores también se iba dando un mayor soporte a las especificaciones del DOM, en lo que se han llamado los niveles del DOM. El primero que empezó a disponibilizar por medio de objetos los componentes de la página fue Netscape 2.0, que incorporaba lo que se llama el DOM nivel 0. Actualmente, la última especificación publicada es DOM nivel 4.
+    
+    Es importante destacar ahora que, dado que los niveles del DOM cambian de versión a versión del navegador y que las especificaciones se han entendido de manera distinta por las distintas organizaciones creadoras de los navegadores, se ha producido un marco donde trabajar con los objetos de la página difiere de un navegador a otro.
+    
+    
+
+    <br><strong>DOM y Compatibilidad con navegadores.</strong> Uno de los problemas más importantes que nos encontramos es que los distintos navegadores interpretan de manera distinta el mismo código. Eso ocurre con cualquier lenguaje interpretado en el lado del cliente, como HTML, CSS y Javascript. El problema en cuanto a Javascript es todavía peor, puesto que las diferencias entre navegadores son muy grandes y también entre versiones de un mismo explorador.
+
+    Con todo ello, cuando desarrollamos páginas web con el DOM, nos encontramos con graves dificultades para que un mismo código funcione de igual manera, por lo menos entre los navegadores más comunes.
+    
+    Para solucionarlo en DesarrolloWeb.com hemos visto una serie de técnicas que permiten detectar el navegador del usuario y según sea este ejecutar unas u otras sentencias. Lamentablemente, todas estas técnicas no hacen más que complicar el código y el desarrollo de aplicaciones web con programación del lado del cliente. Para solucionarlo existen librerías o frameworks de Javascript, los cuales hemos comentado en desarrollo web.com y publicado manuales, que permiten realizar programación sin tener que preocuparnos por las distintas características de los navegadores, a la vez que dan un serie de funciones avanzadas para desarrollo de interfaces de una manera sencilla y rápida.
+    
+    Para empezar, publicamos el manual de CrossBrowser DHTML, que se puede considerar como una reliquia pues fue la primera utilidad que conseguía liberarnos de las dificultades de trabajar con distintos tipos de navegadores. Esta librería no llegó a establecerse fuertemente y con el tiempo surgió jQuery como clara dominador de las librerías de manipulación del DOM, que puedes aprender en el Manual de jQuery. Además, en DesarrolloWeb.com hemos publicado otros artículos comentando distintos frameworks Javascript que existen en el mercado.
+    
+    Así pues, nuestra recomendación desde Desarrollo Web .com es que aprendamos a utilizar algún framework o librería que nos permita trabajar con el DOM sin tener que preocuparnos con los distintos navegadores que pueden acceder a nuestro sitio. Nos ahorraremos tiempo de trabajo y dolores de cabeza.
+
+    <br><strong>Estandarización del DOM.</strong> Por suerte, de un tiempo para aquí se ha producido un fuerte movimiento de estándares web y el DOM ha sido uno de los elementos que se han ido estandarizando, de modo que todos los navegadores llevan hoy una misma dirección, lo que ha redundado en el beneficio de los usuarios, pero sobre todo los desarrolladores.
+    Es por ello que actualmente es muy viable crear código Javascript nativo, que funciona bien en todos los navegadores sin necesidad de preguntar constantemente en qué navegador se está ejecutando el código. Esto ha hecho que sea mucho más sencillo usar Javascript en el trabajo con el cliente y que sea perfectamente viable trabajar únicamente con el lenguaje, sin necesidad de librerías de terceros, y recomendable al menos para usos sencillos. 
+
+    Trabajar con el DOM directamente es perfectamente posible con el lenguaje Javascript, aunque además muchos desarrolladores prefieren usar librerías que simplifican la labor como jQuery. Incluso, últimamente se estilan librerías más avanzadas, como React o Lit que permiten manipular la página por medio de componentes encapsulados, que nos ahorran la necesidad de trabajar directamente con el DOM y sí con sistemas de templates y enlaces de datos.
+   
+    <div class="frase">Hasta aqui nuestra consulta.</div>
+
+  </article>
+  <section class="img"><img src="/images/fondo.jpg" alt="fondo" HSPACE="100" VSPACE="10">
+    <br><strong>Por:CAMILO GOMEZ.</strong>
+  </section>
+  <div>
+    <footer class="piedepagina">
+      
+
+    </footer>
+    
+  </div>
+
+  
+    
+</div>
+    
+</body>
+</html>
