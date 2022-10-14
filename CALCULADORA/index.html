@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculadora.css">
+    <title>Calculadora</title>
+    <script>
+        function calcula(operacion) {
+            var num1 = document.calc.num1.value
+            var num2 = document.calc.num2.value
+            var result = eval(num1 + operacion + num2)
+            document.calc.resultado.value = result
+        }
+    </script>
+
+<body>
+    <section class="contenedor">
+        <h1>LA CUENTA HUEVOS 2000</h1>
+
+        <div class="calculadora">
+            <form name="calc">
+                <label for="fname">INSERTE NUMERO 1:</label> <input type="Text" name="num1" value="" size="12">
+                <br>
+                <label for="fname">INSERTE NUMERO 2:</label> <input type="Text" name="num2" value="" size="12">
+                <br>
+                <br>
+                <section class="Buttons">
+                    <input type="Button" name="" value=" SUMA " onclick="calcula('+')">
+                    <input type="Button" name="" value=" RESTAR " onclick="calcula('-')">
+                    <input type="Button" name="" value=" MULTIP/ " onclick="calcula('*')">
+                    <input type="Button" name="" value=" DIVIDIR " onclick="calcula('/')">
+                </section>
+
+                <br>
+                <br>
+                <input type="Text" name="resultado" value="" size="10"> <label for="fname">RESULTADO</label><br>
+            </form>
+
+        </div>
+        <br>
+        </div>
+    </section>
+</body>
+
+</html>
